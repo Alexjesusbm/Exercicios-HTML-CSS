@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID e PseudoClasse e PseudoElemento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #principal{
+            color: blue;
+        }
+        #secundario{
+         font-weight: 900;
+         background-color: aliceblue;
+        }
+        .titulo{
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:visited{
+            color: orange;
+        }
+        a:active{
+            color: yellowgreen;
+        }
+        a::after{
+            content: '←';
+        }
+        a::before{
+            content: '→';
+        }
+    </style>
+</head>
+<body>
+    <h1 id="principal" class="titulo">Olaaaaaa</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique fugit laudantium cupiditate repudiandae quibusdam eum necessitatibus aliquid exercitationem molestiae eius quaerat atque maiores animi, autem omnis delectus error magni sunt.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure odit repellendus unde saepe assumenda. Aliquam nihil ratione placeat, temporibus veritatis ad natus quia, possimus commodi fugit blanditiis praesentium, quae quaerat.
+    </p>
+    <h1 id="secundario" class="titulo">Este é:</h1>
+    <p>meu <a href="httpswww.google.com" class="link" >curso de html</a></p>
+    
+</body>
+</html>
